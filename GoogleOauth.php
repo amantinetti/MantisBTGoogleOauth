@@ -12,7 +12,7 @@ class GoogleOauthPlugin extends MantisPlugin {
 
 		$this->version  = '2.2';
 		$this->requires = array(
-			'MantisCore' => '2.5.0',
+			'MantisCore' => '2.25.0',
 		);
 
 		$this->author  = 'Arturo Mantinetti';
