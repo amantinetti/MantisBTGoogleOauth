@@ -10,14 +10,14 @@ class GoogleOauthPlugin extends MantisPlugin {
 		$this->description = 'Add Google authentication to MantisBT.';
 		$this->page        = 'config';
 
-		$this->version  = '2.1';
+		$this->version  = '2.2';
 		$this->requires = array(
-			'MantisCore' => '2.0.0',
+			'MantisCore' => '2.5.0',
 		);
 
-		$this->author  = 'Alleen Wang';
-		$this->contact = 'wchwch@gmail.com';
-		$this->url     = 'https://github.com/mantisbt-plugins/GoogleOauth';
+		$this->author  = 'Arturo Mantinetti';
+		$this->contact = 'arturo@gofirmex.com';
+		$this->url     = 'https://github.com/amantinetti/MantisBTGoogleOauth';
 	}
 
 	function init() {
